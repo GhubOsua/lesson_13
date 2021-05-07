@@ -19,4 +19,5 @@ config.vm.hostname = "lesson13"
                end
 
 	#config.vm.synced_folder "/home/......", "/vagrant", type: "rsync"
+	config.vm.provision "shell", path: "lesson_13.sh"
 end
